@@ -100,7 +100,7 @@ function changeDirection(e) {
     vely = 0
     velx = 1
   }
-
+  // restart game
   if (e.code == "KeyB") {
     gameOver = false
   }
